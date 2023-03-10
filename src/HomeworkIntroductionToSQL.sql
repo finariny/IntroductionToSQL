@@ -1,7 +1,6 @@
 /*
 Домашнее задание по уроку "Введение в SQL"
-*/
-/*
+
 Задание 1
  */
 
@@ -24,13 +23,10 @@ CREATE TABLE employee (
  */
 
 INSERT INTO employee (first_name, last_name, gender, age)
-VALUES ('Ivan', 'Popov', 'male', 24);
-
-INSERT INTO employee (first_name, last_name, gender, age)
-VALUES ('Maksim', 'Osipov', 'male', 43);
-
-INSERT INTO employee (first_name, last_name, gender, age)
-VALUES ('Alina', 'Romanova', 'female', 21);
+VALUES
+    ('Ivan', 'Popov', 'male', 24),
+    ('Maksim', 'Osipov', 'male', 43),
+    ('Alina', 'Romanova', 'female', 21);
 
 SELECT * FROM employee;
 
@@ -46,8 +42,7 @@ SELECT * FROM employee;
 
 /*
 Домашнее задание по уроку "Выборка данных и вложенные запросы"
-*/
-/*
+
 Задание 1
 */
 
